@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 sudo apt -y update
-sudo apt -y install git ripgrep jq
+sudo apt -y install git ripgrep jq htop
 
 # fzf
 git clone git@github.com:junegunn/fzf.git $HOME/tools/fzf
@@ -10,3 +10,5 @@ $HOME/tools/fzf/install
 # hyperfine
 wget https://github.com/sharkdp/hyperfine/releases/download/v1.19.0/hyperfine_1.19.0_amd64.deb
 sudo dpkg -i hyperfine_1.19.0_amd64.deb
+
+snap install btop

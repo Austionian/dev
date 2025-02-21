@@ -1,6 +1,6 @@
 ## Installs
 
-Will install tools.
+Will install tools on Ubuntu systems.
 
 > [!NOTE]
 > Make sure `install.sh` and files in `installs/` are executable.
