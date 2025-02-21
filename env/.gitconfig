@@ -1,0 +1,8 @@
+[user]
+	email = austin@r00ks.io
+	name = Austin Rooks
+	username = austionian
+[color]
+	ui = true
+[init]
+	defaultBranch = main
