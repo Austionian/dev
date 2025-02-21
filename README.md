@@ -34,6 +34,10 @@ For dry runs:
 
 ## Env
 
+> [!CAUTION]
+> Will delete exisiting versions of `.bashrc` and `.gitconfig` before copying
+> from this repo.
+
 Will copy dirs in `dotfiles` to `~/.config` and files in `env/` to `~/`.
 
 > [!NOTE]
