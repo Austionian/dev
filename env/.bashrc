@@ -140,5 +140,4 @@ eval "$(starship init bash)"
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 . "$HOME/.cargo/env"
 
-bind 'set show-all-if-ambiguous on'
 bind 'TAB:menu-complete'

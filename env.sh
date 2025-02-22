@@ -27,7 +27,7 @@ execute() {
     "$@"
 }
 
-log "--------- dev-env ---------"
+log "--------- running env ---------"
 
 cd $script_dir
 copy_dir() {
@@ -54,6 +54,8 @@ copy_file() {
     popd
 }
 
-copy_dir env/dotfiles $XDG_CONFIG_HOME/.config
+copy_dir env/.config $HOME/.config
+copy_dir env/.local $HOME/.local
 copy_file .bashrc $HOME
 copy_file .gitconfig $HOME
+copy_file .ready-tmux $HOME
