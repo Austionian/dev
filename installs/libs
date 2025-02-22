@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 sudo apt -y update
-sudo apt -y install git ripgrep jq htop
+sudo apt -y install git ripgrep jq htop parallel
 
 # fzf
 git clone git@github.com:junegunn/fzf.git $HOME/tools/fzf
