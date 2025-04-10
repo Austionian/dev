@@ -141,3 +141,13 @@ eval "$(starship init bash)"
 . "$HOME/.cargo/env"
 
 bind 'TAB:menu-complete'
+
+addToPath() {
+    if [[ "$PATH" != *"$1"* ]]; then
+        export PATH=$PATH:$1
+    fi
+}
+
+addToPath $HOME/.local/scripts
+
+alias n="$HOME/.local/scripts/tmux-sessionizer"

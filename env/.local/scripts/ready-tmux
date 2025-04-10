@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# If there's a .ready-tmux file in the repo execute it.
+# Otherwise use the default system wide file.
+#
 if [[ -x ./.ready-tmux ]]; then
     ./.ready-tmux
 elif [[ -x ~/.ready-tmux ]]; then

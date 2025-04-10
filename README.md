@@ -1,6 +1,7 @@
 ## Installs
 
-Will install tools on Ubuntu systems.
+Will install tools on Ubuntu systems. Run `./init.sh` to make sure `./env/.config`
+is up to date.
 
 > [!NOTE]
 > Make sure `install.sh` and files in `installs/` are executable.
