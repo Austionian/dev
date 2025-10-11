@@ -151,3 +151,4 @@ addToPath() {
 addToPath $HOME/.local/scripts
 
 alias n="$HOME/.local/scripts/tmux-sessionizer"
+alias bat="batcat"
